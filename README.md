@@ -1,6 +1,21 @@
 # DNS Records and related notes
 
-## DNS Records
+<div id="back-to-top"></div>
+
+## Table of Contents
+
+1. [General notes](#general-notes)
+1. [A Records](#a-records)
+1. [CNAME Records](#cname-records)
+1. [MX Records](#mx-records)
+1. [TXT Records](#txt-records)
+1. [NS Records](#ns-records)
+1. [Miscellaneous notes](#miscellaneous-notes)
+1. [Cloudflare notes](#cloudflare-notes)
+1. [A2 notes](#a2-notes)
+   1. [Transfer process](#transfer-process)
+
+## General notes
 
 - Your registrar will provide the DNSs that will propulgate your domain name records
 - Check out the sites: [What's My DNS](https://www.whatsmydns.net/) | [DNS Checker](https://dnschecker.org/) | [MX Toolbox](https://mxtoolbox.com/)
@@ -11,7 +26,9 @@
 - DNS records: `A` record (website), `CNAME` (www?), `MX` record (email service), `TXT` (verification), and others...
 - All this info is public
 
-### A Records
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## A Records
 
 - `A` - The most common DNS record, used to point a domain to an IP address
 - must have it for a domain that has an associated website
@@ -24,16 +41,20 @@
 - You may also see `IPv4` address field instead of `point to`
 - If you see records propulgate but your site address is not found then it may be a local dns caching issue - try checking your site in incognito mode
 
-### CNAME Records
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## CNAME Records
 
 - `CNAME` Record - Also known as alias records or canonical name, they point to other DNS records. Sometimes used for subdomains
 - It maps one domain name or subdomain to another domain - a little odd but e.g. `www` and `ftp` that both use the same IP address
 - They will eventually point to the A record which points to the ip address -
 - Drawback for using `CNAME` recs for subdomains: you can use an `A` rec for `store.example.com`
 - You can do it with a `CNAME` rec but now 2 DNS lookups are required > make sure an `A` rec already exists then > choose `CNAME` type > you can type the full subdomain or just the subdomain part > for the domain name you can type the name or just use an `@` symbol as for an `A` rec
-- in command prompt you can use the `dig` or `nslookup` command to get the `CNAME` or `A` rec -
+- in command prompt you can use the `dig` or `nslookup` command to get the `CNAME` or `A` rec
 
-### MX Records
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## MX Records
 
 - `MX` Record - Mail Exchanger records are used to set email servers and their priority
 - There are a # of them that you need depending on your site settings
@@ -43,7 +64,9 @@
 - It goes from 0-256 or 2 to the power of 32, it depends
 - To create > add `@` for the `Host` field > choose `MX` > set time to live (`TTL`) as 3600 > add a priority > in data field add the mail server doamin like `mail.kernixwebdesign.com` though the last two fields may be combind like `10 mail.kernixwebdesign.com`
 
-### TXT Records
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## TXT Records
 
 - `TXT` records - Text records are commonly used for configuration settings such as `SPF` and `DKIM` records
 - The primary 2 uses for `TXT` records,
@@ -55,7 +78,9 @@
 - Some `TXT` records are used for verification and used only once
 - An `SPF` rec depends on the email provider you have and it helps being recognized by other email providers
 
-### NS Records
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## NS Records
 
 - `NS`records: Name Server records store the authoritative `nameserver`.
 - `NS` record vs `Nameserver`: `NS` stands for nameserver - the primary purpose is to connect a domain with a nameserver
@@ -66,14 +91,16 @@
 - In which case you can give the domain name provider your host prodiver nameservers or vice versa
 - Or you can use a 3rd party DNS provider like Cloudflare to manage your DNS records in which case you give those `NS` recs to both your domain registrar and host provider
 
-### Miscellaneous
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## Miscellaneous notes
 
 - Apache or Nginx - he has terminal sessions for servers
 - he has a config file in an nginx folder on his computer and he changed the `server_name` to his domain name
 - for nginx he add the www version on the same line -
 - for apache folder, there is a default file - confusing - he added a key/value of `ServerName` websitename.com and `ServerAlias` as www.websitename.com
 
-## Cloudflare
+## Cloudflare Notes
 
 CLOUDFLARE NAMESERVERS:
 
@@ -99,7 +126,9 @@ RULES:
 - fairmountpetservice.com/wp-admin* with Browser Integrity Check: `On`, http://*fairmountpetservice.com/* with `Always Use HTTPS`, fairmountpetservice.com/*preview=true* with Browser Integrity Check: On - maybe fairmountpetservice.com/wp-login*,
 - SSL/TLS: Overview – Full, Edge certs – always use https,
 
-## A2
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+## A2 notes
 
 A2 NAMESERVERS:
 
@@ -134,6 +163,8 @@ This article will show you how to transfer everyguitarchord.com and kernixwebdes
 
 - https://www.a2hosting.com/kb/getting-started-guide/configuring-domain-settings/transferring-a-domain-to-a2-hosting
 
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
 ### Transfer process
 
 1. transfer domain name(s) to A2,
@@ -154,3 +185,5 @@ Ticket with A2 support:
 > > That page is in my public_html folder. I also have the CSS and JavaScript files in that folder. That page links to one of my portfolio items which also lives in public_html and has links to files in the css, icons, images, and js folders in public_html. This is my web design website and is the one I need the most! I also tried to send a message from the contact page and I got a success message but it did not go through, but then I haven't done anything with that yet.
 
 > > Every Guitar Chord: Site is fine, Wordpress admin dashboard 404, but I have a plugin to hide the login. My url for that page is https://everyguitarchord.com/384closed/. The plugin I use is WPS Hide Login. I can try removing it manually from Siteground. But I also have that plugin installed on fairmountpetservice.com and kernixwebdesign.com. Let me know why I can get into thise but not this dashboard.
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
