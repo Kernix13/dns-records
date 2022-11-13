@@ -1,5 +1,7 @@
 # DNS Records and related notes
 
+Notes on DNS records are in this. Also check out the cPanel markdown file.
+
 <div id="back-to-top"></div>
 
 ## Table of Contents
