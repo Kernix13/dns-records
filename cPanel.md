@@ -69,10 +69,14 @@ This markdown file is mostly for cPanel options. Web hosting notes are at the be
 I don't see a link for this section of cPanel so search the Knowledge Base if you want to change anything in this section.
 
 - Different for each hosting company 
-- [Password](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-your-cpanel-password) and security:
-- [Change Language](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-the-cpanel-language): 
-- [Contact info](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/updating-contact-information-and-preferences-in-cpanel): 
-- [User manager](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/cpanel-user-manager):
+- [Password](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-your-cpanel-password) and security: Nothing out of the ordinary here, a simple form to enter your current password followed by 2 fields for the new one.
+- [Change Language](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-the-cpanel-language): eslf-explanatory.
+- [Contact info](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/updating-contact-information-and-preferences-in-cpanel): set your default email address, set up push notifications, select various contact preferences, notifications for AutoSSL.
+- [User manager](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/cpanel-user-manager): Per this page:
+
+> This interface allows you to manage subaccounts. Subaccounts use the same login and password information for email, FTP, and Web Disk services. The system synchronizes the password of each of the subaccount’s allowed services. (SKIP)
+
+<!-- Done to  this point -->
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
