@@ -100,7 +100,7 @@ The following are worth using:
 
 Skip the following IMO:
 
-- **Barracuda spam firewall**: No longer available on A2
+- _Barracuda spam firewall_: No longer available on A2
 - **Encryptions**: GnuPG is a publicly available encryption scheme that uses the “public key” approach. With GnuPG, messages are encrypted using a “public key” however, they can only be decrypted by a “private key”, which is retained by the intended recipient of the message...
 - **Calendars and contacts**: ...set up calendars and contacts on your device.
 
@@ -110,29 +110,30 @@ Skip the following IMO:
 
 [A2 cPanel Domain Features](https://www.a2hosting.com/kb/cpanel/cpanel-domain-features)
 
-This is where you can add your domains, subdomains, aliases, redirects, etc.
+This is where you can add your domains, sub-domains, aliases, redirects, etc.
 
-<!-- Done to  this point -->
-
-- [WordPress toolkit](https://www.a2hosting.com/kb/cpanel/wordpress-toolkit): 
-- Domains: 
-- Zone editor: 
-- Site publisher: 
-- Redirects
+- [WordPress toolkit](https://www.a2hosting.com/kb/cpanel/wordpress-toolkit): there are 3 tabs on this page:
+   - installations:
+   - Plugins: Here you can see the list of all plugins installed on your WordPress installations - just use your admin area.
+   - Themes: lists all the active and inactive themes you have loaded into your WordPress site(s) - seems useless, just use your Admin area to maintain them.
+- **Domains**: Use this interface to manage your domains. For more information, read the [documentation](https://go.cpanel.net/Domains).
+- **Zone editor**: DNS converts domain names into computer-readable IP addresses. Use this feature to manage DNS zones. For more information, read the [documentation](https://go.cpanel.net/zoneeditor). There are buttons for `A record`, `CNAME record`, `MS record`, and `Manage`.
+- **Site publisher**: You can use this interface to quickly create a website from a set of available templates. This allows visitors to see some basic information while you continue to develop your website. Templates button did not work for me.
+- **Redirects**: Self-explanatory. I currently add my redirects to the `.htaccess` file, though this interface is really good.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Applications
 
-I can't find a link for this section.
+I can't find a link for this section in cPanel, though it the features seem to be under a heading of _Softaculous AppsInstaller_. There are too many here to go over one by one, so check the ones pertinent to you for how to use them.
 
-**Scripts**: 
+**Scripts** (14 total): 
 
 - WordPress, Woocommerce, WP Toastmasters, WPBeginner, WordPress + Elementor, WordPress + Unsplash, WordPress + Weglot, Drupal 7, Mattomo, CubeCart, CMS made simple, Joomla, b2revolution, MODX
 
-**Categories**: 
+**Categories** (23 total): 
 
-- Blogs, Portals/CMS, Forums, Image Galleries, Wikis, Social Networking, Ad Management, Calendars, Mails, Polls and Analytics, Project Management, E-Commerce, ERP, Customer Support, FRameworks, Educational, DB Tools, Music, RSS, File Management, Others, Libraries, Mails
+- Blogs, Portals/CMS, Forums, Image Galleries, Wikis, Social Networking, Ad Management, Calendars, Mails, Polls and Analytics, Project Management, E-Commerce, ERP, Customer Support, Frameworks, Educational, DB Tools, Music, RSS, File Management, Others, Libraries, Mails
 - you can install them on your main domain, subdomain, add-on domain
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -141,25 +142,27 @@ I can't find a link for this section.
 
 [A2 cPanel Software Features](https://www.a2hosting.com/kb/cpanel/cpanel-software)
 
-- Cloudflare: 
-- PHP PEar PAckages: 
-- Optimize website: 
-- Dropmysite: 
-- A2 website builder: 
-- Select PHP version: 
-- Setup Ruby app: 
-- WordPress manager by Softaculous: 
-- Perl modules: 
-- Application manager: 
-- Softaculouus apps installer: here is where you can install all of the scripts listed above 
-- Setip Node.js app: 
-- Setup Python app: 
+- _Cloudflare_: no longer being support by A2.
+- **PHP Pear Packages**: PEAR packages are collections of functions that allow you to perform tasks in PHP. You will need to install a PEAR package before you can use it inside a PHP program. Note: Packages are installed directly from the PHP Extensions and Applications repository (PEAR).
+- **Optimize website**: Optimize the performance of your website by tweaking the way Apache handles requests.
+- **Dropmysite**: got as 404 page when trying to access that link.
+- **A2 website builder**: no thanks
+- **Select PHP version**: It's very important to make sure you are not running an older version of PHP.
+- **Setup Ruby app**: No clue about this one, check knowledge base.
+- **WordPress manager by Softaculous**: Ehhh? Why not use the WordPress admin area?
+- **Perl modules**: Perl modules are collections of functions that allow you to perform tasks in Perl. You will need to install a Perl module before you can use it inside a Perl program. Note: Modules are installed directly from the CPAN repository.
+- **Application manager**: This feature allows you to register, manage, and deploy your custom applications using Phusion Passenger (?)
+- **Softaculouus apps installer**: here is where you can install all of the scripts listed above 
+- **Setup Node.js app**: Most likely you will not need this.
+- **Setup Python app**: Same as above.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Files
 
 [A2 cPanel File Features](https://www.a2hosting.com/kb/cpanel/cpanel-file-features)
+
+      <!-- Done to this point WTF? -->
 
 - File Manager: public_html is where all your website files go - you can create subfolders in here like `/blog` - he says don't use it because it's not that good but instead use an FTP account (this video is from 2017!) - 
 - Directory privacy: 
