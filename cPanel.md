@@ -66,9 +66,8 @@ This markdown file is mostly for cPanel options. Web hosting notes are at the be
 
 ### Preferences
 
-I don't see a link for this section of cPanel so search the Knowledge Base if you want to change anything in this section.
+I don't see a link for this section of cPanel so search the Knowledge Base if you want to change anything in this section. These options will be different for each hosting company:
 
-- Different for each hosting company 
 - [Password](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-your-cpanel-password) and security: Nothing out of the ordinary here, a simple form to enter your current password followed by 2 fields for the new one.
 - [Change Language](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-the-cpanel-language): eslf-explanatory.
 - [Contact info](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/updating-contact-information-and-preferences-in-cpanel): set your default email address, set up push notifications, select various contact preferences, notifications for AutoSSL.
@@ -76,29 +75,34 @@ I don't see a link for this section of cPanel so search the Knowledge Base if yo
 
 > This interface allows you to manage subaccounts. Subaccounts use the same login and password information for email, FTP, and Web Disk services. The system synchronizes the password of each of the subaccount’s allowed services. (SKIP)
 
-<!-- Done to  this point -->
-
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Emails
 
 [A2 cPanel Mail Features](https://www.a2hosting.com/kb/cpanel/cpanel-mail-features)
 
-- lots of choices here
-- Barracuda spam firewall:
-- Forwarders: 
-- Autoresponders: 
-- Global email filters: 
-- Email deliverability: 
-- Encryptions: 
-- Email disk usage: 
-- Email accounts: 
-- Email routing: 
-- Mailing lists: 
-- Email filters
-- Spam filters
--  Calendars and contacts: 
-- Remote MX wizard: 
+The following are worth using:
+
+- **Forwarders**: Send a copy of any incoming email from one address to another
+- **Autoresponders**: Configure an email account to send automated emails. This can be useful if you are on vacation or unavailable, or if you have a generic message that you wish to send from a support email address
+- **Global email filters**: Create and manage email filters for your main email account. Rules will be processed in the order shown below, from the top down. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/global-email-filters/).
+- **Email deliverability**: Use this interface to reduce the number of emails sent from this server that end up in spam folders. For more information, read our [Email Deliverability](https://docs.cpanel.net/cpanel/email/email-deliverability-in-cpanel/) documentation:
+
+> Use this interface to identify problems with your mail-related DNS records for one or more of your domains. The system uses these records to verify that other servers can trust it as a sender
+
+- **Email disk usage**: This utility allows you to recover disk space by deleting old messages from your mailbox.
+- **Email accounts**: This feature lets you create and manage email accounts. Read the [documentation](https://go.cpanel.net/Accounts) to learn more.
+- **Email routing**: Route a domain’s incoming mail to a specific server. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/email-routing/). 
+- **Mailing lists**: Use a single address to send email to multiple email addresses. Read the [documentation](https://go.cpanel.net/MailingLists) for more info.
+- **Email filters**: Create and manage email filters for an email address that you specify. This can be useful if you want to avoid spam, redirect mail, or pipe messages to a program. For more information, read the [documentation](https://go.cpanel.net/UserFilters). 
+- **Spam filters**: Manage the settings for the spam filters (powered by Apache SpamAssassin™) for your email accounts. Identify unsolicited bulk email, more commonly known as spam, and send it to a separate folder (Spam Box) or automatically delete it (Auto-Delete) from your email account.
+- **Remote MX wizard**: This tool allows you to configure the MX records and other services of your mail provider in a few clicks.
+
+Skip the following IMO:
+
+- **Barracuda spam firewall**: No longer available on A2
+- **Encryptions**: GnuPG is a publicly available encryption scheme that uses the “public key” approach. With GnuPG, messages are encrypted using a “public key” however, they can only be decrypted by a “private key”, which is retained by the intended recipient of the message...
+- **Calendars and contacts**: ...set up calendars and contacts on your device.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -106,7 +110,10 @@ I don't see a link for this section of cPanel so search the Knowledge Base if yo
 
 [A2 cPanel Domain Features](https://www.a2hosting.com/kb/cpanel/cpanel-domain-features)
 
-- where you can add your domains, subdomains, aliases, redirects, 
+This is where you can add your domains, subdomains, aliases, redirects, etc.
+
+<!-- Done to  this point -->
+
 - [WordPress toolkit](https://www.a2hosting.com/kb/cpanel/wordpress-toolkit): 
 - Domains: 
 - Zone editor: 
