@@ -125,7 +125,7 @@ This is where you can add your domains, sub-domains, aliases, redirects, etc.
 
 ### Applications
 
-I can't find a link for this section in cPanel, though it the features seem to be under a heading of _Softaculous AppsInstaller_. There are too many here to go over one by one, so check the ones pertinent to you for how to use them.
+I can't find a link for this section in cPanel, though the features seem to be under a heading of _Softaculous AppsInstaller_. There are too many here to go over one by one, so check the ones pertinent to you for how to use them.
 
 **Scripts** (14 total): 
 
@@ -162,18 +162,18 @@ I can't find a link for this section in cPanel, though it the features seem to b
 
 [A2 cPanel File Features](https://www.a2hosting.com/kb/cpanel/cpanel-file-features)
 
-      <!-- Done to this point WTF? -->
+The best features here are File Manager, Web Disk, Backup, Images, and Backup wizard. 
 
-- File Manager: public_html is where all your website files go - you can create subfolders in here like `/blog` - he says don't use it because it's not that good but instead use an FTP account (this video is from 2017!) - 
-- Directory privacy: 
-- Web disk: 
-- Backup:
-- Git version control: 
-- images:
-- Disk usage: 
-- FTP accounts: you can use your home ftp account or create new accounts - 
-- Backup wizard: 
-- Server rewind: 
+- [File Manager](https://www.a2hosting.com/kb/cpanel/cpanel-file-features/cpanel-file-manager): public_html is where all your website files go - you can create subfolders in here like `/blog` - he says don't use it because it's not that good but instead use an FTP account (this video is from 2017!) - You can browse directories, as well as copy, rename, and move files. You can upload and download files, and there are several ways to edit files
+- **Directory privacy**: Set a password to protect certain directories of your account. When you enable this feature, a user that tries to open a protected folder will be prompted to enter a username and password before they can access your content - [docs](https://docs.cpanel.net/cpanel/files/directory-privacy/)
+- **Web disk**: Create a Web Disk account to manage, navigate, upload, and download the files on your web server - [docs](https://go.cpanel.net/WebDisk)
+- **Backup**: Download a zipped copy of your entire site or a part of your site that you can save to your computer. When you backup your website, you have an extra copy of your information in case something happens to your host - [docs](https://go.cpanel.net/Backup)
+- **Git version control**: Create and manage Git™ repositories. You can use Git to maintain any set of files and track the history of changes from multiple editors - [docs](https://go.cpanel.net/GitVersionControl)
+- **Images**: Modify and manage images that are saved to your account - [docs](https://docs.cpanel.net/cpanel/files/images/)
+- **Disk usage**: Monitor your account's available space with the Disk Usage feature - [docs](https://go.cpanel.net/DiskUsage)
+- **FTP accounts**: You can use an FTP client to manage your website’s files, you can use your home FTP account or create new accounts - [docs](https://go.cpanel.net/FtpAccounts)
+- **Backup wizard**: The _Backup_ feature allows you to download a compressed copy of all or part of your website - the _Restore_ feature allows you to upload an existing partial backup file in order to restore parts of your website
+- **Server rewind**: to restore files and databases on your web site. Using Server Rewind, you can restore a file, a set of files, or a database with just a few clicks - [docs](https://www.a2hosting.com/kb/cpanel/cpanel-file-features/server-rewind)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -181,13 +181,15 @@ I can't find a link for this section in cPanel, though it the features seem to b
 
 [A2 cPanel Database Features](https://www.a2hosting.com/kb/cpanel/cpanel-database-features)
 
-- phpMyAdmin: 
-- MySQL Database Wizard: 
-- PostgreSQL: 
-- phpPgAdmin: 
-- MySQL databases: 
-- Remote MySQL: 
-- PosthreSQL database wizard: 
+cPanel supports two of the most widely-used database systems, MySQL® and PostgreSQL. These database systems are complete SQL server and database solutions. You can interact with MySQL and PostgreSQL databases using a wide variety of programming languages, including PHP, Perl, and Python.
+
+- **phpMyAdmin**: used to manage MySQL databases (phpMyAdmin) and PostgreSQL databases (phpPgAdmin) - You can create and drop tables, import and export data, execute SQL statements, repair tables, and much more - [docs](https://www.a2hosting.com/kb/cpanel/cpanel-database-features/phpmyadmin-and-phppgadmin)
+- **MySQL Database Wizard**: create a new MySQL database
+- **PostgreSQL**: - [How to manage PostgreSQL databases and users in cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-database-features/managing-postgresql-databases)
+- **phpPgAdmin**: see link for phpMyAdmin. 
+- **MySQL databases**: You can see a list of your current databases, as well as create and modify databases - [docs](https://docs.cpanel.net/cpanel/databases/mysql-databases/)
+- **Remote MySQL**: Add a specific domain name to allow visitors to connect to your MySQL databases - [docs](https://go.cpanel.net/RemoteMySql)
+- **PostgreSQL database wizard**: create a new PostgreSQL database
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -195,16 +197,16 @@ I can't find a link for this section in cPanel, though it the features seem to b
 
 [A2 Using the Logging Features in cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-logging-features)
 
-- Visitors: 
-- Bandwidth: 
-- Awstats: 
-- Webalizer: 
-- Metrics Editor: 
-- Errors: 
-- Raw Access: 
-- Analog stats: 
-- Webalizer FTP:
-- Resource usage: 
+- **Visitors**: This function displays up to 1,000 of the most recent entries in the domain’s web server log
+- **Bandwidth**: This function allows you to see the bandwidth usage for your site. It shows the current month’s bandwidth usage, as well as your total bandwidth usage
+- **Awstats**: Awstats produces visual statistics about visitors of your site.
+- **Webalizer**: Webalizer is a complex stats program that produces a variety of charts and graphs about who has visited your site
+- **Metrics Editor**: This interface allows you to choose which stats programs you will use when viewing site statistics - Analog, Awstats, or Webalizer.
+- **Errors**: The function displays the most recent entries in your website’s error logs in reverse chronological order. You can use this information to find broken links or problems with missing files - [docs](https://go.cpanel.net/Errors)
+- **Raw Access**: Raw Access Logs allow you to see who has visited your website without displaying graphs, charts, or other graphics. You can use the Raw Access Logs menu to download a zipped version of the server’s access log for your site. This can be very useful when you want to quickly see who has visited your site
+- **Analog stats**: Analog produces a simple summary of all the people who have visited your site. It is fast and provides great lightweight statistics. Analog shows the people who have accessed your site during a specific month. It provides limited content but can be helpful to see where your main users are from
+- **Webalizer FTP**: Webalizer FTP is a complex stats program that produces a variety of charts and graphs about who has visited your site using FTP protocol
+- **Resource usage**: [docs](https://www.a2hosting.com/kb/cpanel/cpanel-logging-features/latest-visitors-bandwidth-resource-usage) and [docs2](https://www.a2hosting.com/kb/cpanel/cpanel-logging-features/resource-limit-information)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -212,17 +214,17 @@ I can't find a link for this section in cPanel, though it the features seem to b
 
 [A2 cPanel Security Features](https://www.a2hosting.com/kb/cpanel/cpanel-security-features)
 
-- Autoinstall SSL: 
-- IP Blocker: 
-- Manage API Tokens: 
-- Leech protection: 
-- SSL/TLS Status: 
-- Imunify360: 
-- SSH access: 
-- SSL/TLS:
-- Hotlink protection: 
-- ModSecurity: 
-- Two-factor authentification: 
+- **Autoinstall SSL**: check out [How to set up AutoSSL on your domain](https://www.a2hosting.com/kb/cpanel/cpanel-security-features/reconfiguring-autossl-on-domains)
+- **IP Blocker**: This feature will allow you to block a range of IP addresses to prevent them from accessing your site. You can also enter a fully qualified domain name, and the IP Deny Manager will attempt to resolve it to an IP address for you
+- **Manage API Tokens**: This feature lets you create and manage API tokens for cPanel API 2 and UAPI - Warning: The API Tokens feature is experimental [docs](https://go.cpanel.net/ManageAPITokensIncPanel)
+- **Leech protection**: Leech Protect allows you to prevent your users from giving out or publicly posting their passwords to a restricted area of your site. This feature will redirect accounts which have been compromised to a URL of your choice
+- **SSL/TLS Status**: You can use this interface to view the SSL status of your domains - [docs](https://go.cpanel.net/tlsstatus)
+- **Imunify360**: With SSH keys, you can automate logins to your A2 Hosting account, or use two-factor authentication for increased security - Check out [How to use Imunify360](https://www.a2hosting.com/kb/cpanel/cpanel-security-features/imunify360)
+- **SSH access**: Check out [How to configure SSH keys using cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-security-features/configuring-ssh-keys-with-cpanel)
+- **SSL/TLS**: The SSL/TLS Manager will allow you to generate SSL certificates, certificate signing requests, and private keys
+- **Hotlink protection**: Hotlink protection prevents other websites from directly linking to files (as specified below) on your website - Check out [How to configure hotlink protection in cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-security-features/hotlink-protection)
+- **ModSecurity**: Check out [How to manage the ModSecurity module in cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-security-features/managing-the-modsecurity-module-in-cpanel)
+- **Two-factor authentification**: Check out [How to set up two-factor authentication for cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-security-features/two-factor-authentication-for-cpanel)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -230,14 +232,22 @@ I can't find a link for this section in cPanel, though it the features seem to b
 
 [A2 cPanel Advanced Features](https://www.a2hosting.com/kb/cpanel/advanced-features)
 
-- Teminal: 
-- Track DNS: 
-- Error pages: 
-- MIME types:
-- Cron jobs: for automation
-- Indexes:
-- Apache handlers:
-- Virus scanner:
+- **Teminal**: This interface provides command line access to your account on the server
+- **Track DNS**: There are 2 input files, 
+   - 1) _Domain Lookup_: allows you to find out the IP address of any domain, as well as DNS information about that domain. This can be a very useful tool right after your site is set up or after DNS changes have been made to make sure your DNS is setup properly. I assume it uses a tool like [whatsmydns.net](https://www.whatsmydns.net/)
+   - 2) _Trace Route_: allows you to trace the route from the computer you are accessing cPanel from to the server your site is on (i.e. the number of servers and what servers your data must pass through to get to your site).
+- **Error pages**: you can create a custom error page for any valid HTTP status code beginning in 4 or 5: 400, 401, 403, 404, 500 - Check out [docs](https://www.a2hosting.com/kb/cpanel/advanced-features/custom-error-pages)
+- **MIME types**: to configure custom MIME types for your web site - Check out [How to configure custom MIME types in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/mime-types)
+- **Cron jobs** (for automation): This is an advanced feature and you better know what you are doing - Check out [How to set up cron jobs in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/cron-jobs)
+- **Indexes**: The “Index Manager” allows you to customize the way a directory appears when no index files reside in a directory (huh?, see below) - Check out [How to configure directory indexes in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/index-manager)
+- **Apache handlers**: Check out [How to configure custom Apache handlers in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/apache-handlers)
+- **Virus scanner**: -Check out [How to use Virus Scanner in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/virus-scanner)
+
+Example Index Files: 
+
+```
+index.php index.php5 index.php4 index.php3 index.perl index.pl index.plx index.ppl index.cgi index.jsp index.jp index.phtml index.shtml index.xhtml index.html index.htm index.wml Default.html Default.htm default.html default.htm home.html home.htm index.js
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
