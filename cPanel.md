@@ -245,9 +245,14 @@ cPanel supports two of the most widely-used database systems, MySQL® and Postgr
 
 Example Index Files: 
 
-```
-index.php index.php5 index.php4 index.php3 index.perl index.pl index.plx index.ppl index.cgi index.jsp index.jp index.phtml index.shtml index.xhtml index.html index.htm index.wml Default.html Default.htm default.html default.htm home.html home.htm index.js
-```
+| file | file | file | file | 
+| :-- | :-- | :-- | :-- |
+| index.php | index.php5 | index.php4 | index.php3 |
+| index.perl | index.pl | index.plx | index.ppl | 
+| index.cgi | index.jsp | index.jp | index.phtml | 
+| index.shtml | index.xhtml | index.html | index.htm | 
+| index.wml | Default.html | Default.htm | default.html | 
+| default.htm | home.html | home.htm | index.js | 
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
