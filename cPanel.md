@@ -69,7 +69,7 @@ This markdown file is mostly for cPanel options. Web hosting notes are at the be
 I don't see a link for this section of cPanel so search the Knowledge Base if you want to change anything in this section. These options will be different for each hosting company:
 
 - [Password](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-your-cpanel-password) and security: Nothing out of the ordinary here, a simple form to enter your current password followed by 2 fields for the new one.
-- [Change Language](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-the-cpanel-language): eslf-explanatory.
+- [Change Language](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/changing-the-cpanel-language): self-explanatory.
 - [Contact info](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/updating-contact-information-and-preferences-in-cpanel): set your default email address, set up push notifications, select various contact preferences, notifications for AutoSSL.
 - [User manager](https://www.a2hosting.com/kb/cpanel/getting-started-with-cpanel/cpanel-user-manager): Per this page:
 
@@ -81,22 +81,22 @@ I don't see a link for this section of cPanel so search the Knowledge Base if yo
 
 [A2 cPanel Mail Features](https://www.a2hosting.com/kb/cpanel/cpanel-mail-features)
 
-The following are worth using:
+The following are simple and have immediate value:
 
 - **Forwarders**: Send a copy of any incoming email from one address to another
 - **Autoresponders**: Configure an email account to send automated emails. This can be useful if you are on vacation or unavailable, or if you have a generic message that you wish to send from a support email address
 - **Global email filters**: Create and manage email filters for your main email account. Rules will be processed in the order shown below, from the top down. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/global-email-filters/).
-- **Email deliverability**: Use this interface to reduce the number of emails sent from this server that end up in spam folders. For more information, read our [Email Deliverability](https://docs.cpanel.net/cpanel/email/email-deliverability-in-cpanel/) documentation:
-
-> Use this interface to identify problems with your mail-related DNS records for one or more of your domains. The system uses these records to verify that other servers can trust it as a sender
-
-- **Email disk usage**: This utility allows you to recover disk space by deleting old messages from your mailbox.
+- **Email deliverability**: Use this interface to reduce the number of emails sent from this server that end up in spam folders, to identify problems with your mail-related DNS records for one or more of your domains. The system uses these records to verify that other servers can trust it as a sender. For more information, read our [Email Deliverability](https://docs.cpanel.net/cpanel/email/email-deliverability-in-cpanel/) documentation
 - **Email accounts**: This feature lets you create and manage email accounts. Read the [documentation](https://go.cpanel.net/Accounts) to learn more.
-- **Email routing**: Route a domain’s incoming mail to a specific server. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/email-routing/). 
 - **Mailing lists**: Use a single address to send email to multiple email addresses. Read the [documentation](https://go.cpanel.net/MailingLists) for more info.
 - **Email filters**: Create and manage email filters for an email address that you specify. This can be useful if you want to avoid spam, redirect mail, or pipe messages to a program. For more information, read the [documentation](https://go.cpanel.net/UserFilters). 
 - **Spam filters**: Manage the settings for the spam filters (powered by Apache SpamAssassin™) for your email accounts. Identify unsolicited bulk email, more commonly known as spam, and send it to a separate folder (Spam Box) or automatically delete it (Auto-Delete) from your email account.
 - **Remote MX wizard**: This tool allows you to configure the MX records and other services of your mail provider in a few clicks.
+
+Let useful IMO but worth looking into:
+
+- **Email disk usage**: This utility allows you to recover disk space by deleting old messages from your mailbox.
+- **Email routing**: Route a domain’s incoming mail to a specific server. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/email-routing/). 
 
 Skip the following IMO:
 
@@ -113,7 +113,7 @@ Skip the following IMO:
 This is where you can add your domains, sub-domains, aliases, redirects, etc.
 
 - [WordPress toolkit](https://www.a2hosting.com/kb/cpanel/wordpress-toolkit): there are 3 tabs on this page:
-   - installations:
+   - Installations: shows you the domains that you have a WordPress installation
    - Plugins: Here you can see the list of all plugins installed on your WordPress installations - just use your admin area.
    - Themes: lists all the active and inactive themes you have loaded into your WordPress site(s) - seems useless, just use your Admin area to maintain them.
 - **Domains**: Use this interface to manage your domains. For more information, read the [documentation](https://go.cpanel.net/Domains).
@@ -124,6 +124,8 @@ This is where you can add your domains, sub-domains, aliases, redirects, etc.
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Applications
+
+      <!-- Stopped here -->
 
 I can't find a link for this section in cPanel, though the features seem to be under a heading of _Softaculous AppsInstaller_. There are too many here to go over one by one, so check the ones pertinent to you for how to use them.
 
