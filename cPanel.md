@@ -28,24 +28,24 @@ This markdown file is mostly for cPanel options. Web hosting notes are at the be
 ## Different types of hosting
 
 - Business / shared hosting - where you have a server that have a number of shared accounts on that server - the cheapest option
-- VPS hosting, a step up, a virtual server, gives you more freedom 
-- Dedicated server - you have your own machine - you rent out a physical machine from the company - 
-- Reseller hosting - like a VPS except you are selling shared hosting to other people - you have a billing system, skip 
+- VPS hosting, a step up, a virtual server, gives you more freedom
+- Dedicated server - you have your own machine - you rent out a physical machine from the company -
+- Reseller hosting - like a VPS except you are selling shared hosting to other people - you have a billing system, skip
 - WordPress hosting - shared hosting optimized for WP
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Whats included
 
-- most companies include a domain name free, at least for the 1st year 
+- most companies include a domain name free, at least for the 1st year
 - you may have a domain registered somewhere else - you would have to go back to that registrar and add the hosting nameservers to link your domain to your new hosting acct
-- you can choose if you want WP installed automatically - 
+- you can choose if you want WP installed automatically -
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### After signup
 
-- you get an email with a login id which will be your email address 
+- you get an email with a login id which will be your email address
 - you need to create your password and then you can log into your account panel
 - your account panel/admin area is where you can update your billing plan, your contact info, pay your bill, etc
 - you will also see a link to cPanel
@@ -56,10 +56,10 @@ This markdown file is mostly for cPanel options. Web hosting notes are at the be
 
 - this is where you manage your site
 - each hosting company will have a different theme or setup for the cPanel main view page
-- possible themes: paper lantern, jupiter, 
-- in the sidebar is your server information: 
+- possible themes: paper lantern, jupiter,
+- in the sidebar is your server information:
 - addon domains - for packages where you can have more than 1 website - make sure they are small websites because they share the features like bandwidth
-- db options MySQL, Postgres, 
+- db options MySQL, Postgres,
 - disk usage, email accts, forwarders, ftp accts, cpu usage, subdomains, ...
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -89,14 +89,14 @@ The following are simple and have immediate value:
 - **Email deliverability**: Use this interface to reduce the number of emails sent from this server that end up in spam folders, to identify problems with your mail-related DNS records for one or more of your domains. The system uses these records to verify that other servers can trust it as a sender. For more information, read our [Email Deliverability](https://docs.cpanel.net/cpanel/email/email-deliverability-in-cpanel/) documentation
 - **Email accounts**: This feature lets you create and manage email accounts. Read the [documentation](https://go.cpanel.net/Accounts) to learn more.
 - **Mailing lists**: Use a single address to send email to multiple email addresses. Read the [documentation](https://go.cpanel.net/MailingLists) for more info.
-- **Email filters**: Create and manage email filters for an email address that you specify. This can be useful if you want to avoid spam, redirect mail, or pipe messages to a program. For more information, read the [documentation](https://go.cpanel.net/UserFilters). 
+- **Email filters**: Create and manage email filters for an email address that you specify. This can be useful if you want to avoid spam, redirect mail, or pipe messages to a program. For more information, read the [documentation](https://go.cpanel.net/UserFilters).
 - **Spam filters**: Manage the settings for the spam filters (powered by Apache SpamAssassin™) for your email accounts. Identify unsolicited bulk email, more commonly known as spam, and send it to a separate folder (Spam Box) or automatically delete it (Auto-Delete) from your email account.
 - **Remote MX wizard**: This tool allows you to configure the MX records and other services of your mail provider in a few clicks.
 
 Let useful IMO but worth looking into:
 
 - **Email disk usage**: This utility allows you to recover disk space by deleting old messages from your mailbox.
-- **Email routing**: Route a domain’s incoming mail to a specific server. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/email-routing/). 
+- **Email routing**: Route a domain’s incoming mail to a specific server. For more information, read the [documentation](https://docs.cpanel.net/cpanel/email/email-routing/).
 
 Skip the following IMO:
 
@@ -113,9 +113,9 @@ Skip the following IMO:
 This is where you can add your domains, sub-domains, aliases, redirects, etc.
 
 - [WordPress toolkit](https://www.a2hosting.com/kb/cpanel/wordpress-toolkit): there are 3 tabs on this page:
-   - Installations: shows you the domains that you have a WordPress installation
-   - Plugins: Here you can see the list of all plugins installed on your WordPress installations - just use your admin area.
-   - Themes: lists all the active and inactive themes you have loaded into your WordPress site(s) - seems useless, just use your Admin area to maintain them.
+  - Installations: shows you the domains that you have a WordPress installation
+  - Plugins: Here you can see the list of all plugins installed on your WordPress installations - just use your admin area.
+  - Themes: lists all the active and inactive themes you have loaded into your WordPress site(s) - seems useless, just use your Admin area to maintain them.
 - **Domains**: Use this interface to manage your domains. For more information, read the [documentation](https://go.cpanel.net/Domains).
 - **Zone editor**: DNS converts domain names into computer-readable IP addresses. Use this feature to manage DNS zones. For more information, read the [documentation](https://go.cpanel.net/zoneeditor). There are buttons for `A record`, `CNAME record`, `MS record`, and `Manage`.
 - **Site publisher**: You can use this interface to quickly create a website from a set of available templates. This allows visitors to see some basic information while you continue to develop your website. Templates button did not work for me.
@@ -129,11 +129,11 @@ This is where you can add your domains, sub-domains, aliases, redirects, etc.
 
 I can't find a link for this section in cPanel, though the features seem to be under a heading of _Softaculous AppsInstaller_. There are too many here to go over one by one, so check the ones pertinent to you for how to use them.
 
-**Scripts** (14 total): 
+**Scripts** (14 total):
 
 - WordPress, Woocommerce, WP Toastmasters, WPBeginner, WordPress + Elementor, WordPress + Unsplash, WordPress + Weglot, Drupal 7, Mattomo, CubeCart, CMS made simple, Joomla, b2revolution, MODX
 
-**Categories** (23 total): 
+**Categories** (23 total):
 
 - Blogs, Portals/CMS, Forums, Image Galleries, Wikis, Social Networking, Ad Management, Calendars, Mails, Polls and Analytics, Project Management, E-Commerce, ERP, Customer Support, Frameworks, Educational, DB Tools, Music, RSS, File Management, Others, Libraries, Mails
 - you can install them on your main domain, subdomain, add-on domain
@@ -154,7 +154,7 @@ I can't find a link for this section in cPanel, though the features seem to be u
 - **WordPress manager by Softaculous**: Ehhh? Why not use the WordPress admin area?
 - **Perl modules**: Perl modules are collections of functions that allow you to perform tasks in Perl. You will need to install a Perl module before you can use it inside a Perl program. Note: Modules are installed directly from the CPAN repository.
 - **Application manager**: This feature allows you to register, manage, and deploy your custom applications using Phusion Passenger (?)
-- **Softaculouus apps installer**: here is where you can install all of the scripts listed above 
+- **Softaculouus apps installer**: here is where you can install all of the scripts listed above
 - **Setup Node.js app**: Most likely you will not need this.
 - **Setup Python app**: Same as above.
 
@@ -164,10 +164,10 @@ I can't find a link for this section in cPanel, though the features seem to be u
 
 [A2 cPanel File Features](https://www.a2hosting.com/kb/cpanel/cpanel-file-features)
 
-The best features here are File Manager, Web Disk, Backup, Images, and Backup wizard. 
+The best features here are File Manager, Web Disk, Backup, Images, and Backup wizard.
 
 - [File Manager](https://www.a2hosting.com/kb/cpanel/cpanel-file-features/cpanel-file-manager): public_html is where all your website files go - you can create subfolders in here like `/blog` - he says don't use it because it's not that good but instead use an FTP account (this video is from 2017!) - You can browse directories, as well as copy, rename, and move files. You can upload and download files, and there are several ways to edit files
-- **Directory privacy**: Set a password to protect certain directories of your account. When you enable this feature, a user that tries to open a protected folder will be prompted to enter a username and password before they can access your content - [docs](https://docs.cpanel.net/cpanel/files/directory-privacy/)
+- **Directory privacy**: Set backupa password to protect certain directories of your account. When you enable this feature, a user that tries to open a protected folder will be prompted to enter a username and password before they can access your content - [docs](https://docs.cpanel.net/cpanel/files/directory-privacy/)
 - **Web disk**: Create a Web Disk account to manage, navigate, upload, and download the files on your web server - [docs](https://go.cpanel.net/WebDisk)
 - **Backup**: Download a zipped copy of your entire site or a part of your site that you can save to your computer. When you backup your website, you have an extra copy of your information in case something happens to your host - [docs](https://go.cpanel.net/Backup)
 - **Git version control**: Create and manage Git™ repositories. You can use Git to maintain any set of files and track the history of changes from multiple editors - [docs](https://go.cpanel.net/GitVersionControl)
@@ -188,7 +188,7 @@ cPanel supports two of the most widely-used database systems, MySQL® and Postgr
 - **phpMyAdmin**: used to manage MySQL databases (phpMyAdmin) and PostgreSQL databases (phpPgAdmin) - You can create and drop tables, import and export data, execute SQL statements, repair tables, and much more - [docs](https://www.a2hosting.com/kb/cpanel/cpanel-database-features/phpmyadmin-and-phppgadmin)
 - **MySQL Database Wizard**: create a new MySQL database
 - **PostgreSQL**: - [How to manage PostgreSQL databases and users in cPanel](https://www.a2hosting.com/kb/cpanel/cpanel-database-features/managing-postgresql-databases)
-- **phpPgAdmin**: see link for phpMyAdmin. 
+- **phpPgAdmin**: see link for phpMyAdmin.
 - **MySQL databases**: You can see a list of your current databases, as well as create and modify databases - [docs](https://docs.cpanel.net/cpanel/databases/mysql-databases/)
 - **Remote MySQL**: Add a specific domain name to allow visitors to connect to your MySQL databases - [docs](https://go.cpanel.net/RemoteMySql)
 - **PostgreSQL database wizard**: create a new PostgreSQL database
@@ -235,9 +235,9 @@ cPanel supports two of the most widely-used database systems, MySQL® and Postgr
 [A2 cPanel Advanced Features](https://www.a2hosting.com/kb/cpanel/advanced-features)
 
 - **Teminal**: This interface provides command line access to your account on the server
-- **Track DNS**: There are 2 input files, 
-   - 1) _Domain Lookup_: allows you to find out the IP address of any domain, as well as DNS information about that domain. This can be a very useful tool right after your site is set up or after DNS changes have been made to make sure your DNS is setup properly. I assume it uses a tool like [whatsmydns.net](https://www.whatsmydns.net/)
-   - 2) _Trace Route_: allows you to trace the route from the computer you are accessing cPanel from to the server your site is on (i.e. the number of servers and what servers your data must pass through to get to your site).
+- **Track DNS**: There are 2 input files,
+  - 1.  _Domain Lookup_: allows you to find out the IP address of any domain, as well as DNS information about that domain. This can be a very useful tool right after your site is set up or after DNS changes have been made to make sure your DNS is setup properly. I assume it uses a tool like [whatsmydns.net](https://www.whatsmydns.net/)
+  - 2.  _Trace Route_: allows you to trace the route from the computer you are accessing cPanel from to the server your site is on (i.e. the number of servers and what servers your data must pass through to get to your site).
 - **Error pages**: you can create a custom error page for any valid HTTP status code beginning in 4 or 5: 400, 401, 403, 404, 500 - Check out [docs](https://www.a2hosting.com/kb/cpanel/advanced-features/custom-error-pages)
 - **MIME types**: to configure custom MIME types for your web site - Check out [How to configure custom MIME types in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/mime-types)
 - **Cron jobs** (for automation): This is an advanced feature and you better know what you are doing - Check out [How to set up cron jobs in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/cron-jobs)
@@ -245,16 +245,16 @@ cPanel supports two of the most widely-used database systems, MySQL® and Postgr
 - **Apache handlers**: Check out [How to configure custom Apache handlers in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/apache-handlers)
 - **Virus scanner**: -Check out [How to use Virus Scanner in cPanel](https://www.a2hosting.com/kb/cpanel/advanced-features/virus-scanner)
 
-Example Index Files: 
+Example Index Files:
 
-| file | file | file | file | 
-| :-- | :-- | :-- | :-- |
-| index.php | index.php5 | index.php4 | index.php3 |
-| index.perl | index.pl | index.plx | index.ppl | 
-| index.cgi | index.jsp | index.jp | index.phtml | 
-| index.shtml | index.xhtml | index.html | index.htm | 
-| index.wml | Default.html | Default.htm | default.html | 
-| default.htm | home.html | home.htm | index.js | 
+| file        | file         | file        | file         |
+| :---------- | :----------- | :---------- | :----------- |
+| index.php   | index.php5   | index.php4  | index.php3   |
+| index.perl  | index.pl     | index.plx   | index.ppl    |
+| index.cgi   | index.jsp    | index.jp    | index.phtml  |
+| index.shtml | index.xhtml  | index.html  | index.htm    |
+| index.wml   | Default.html | Default.htm | default.html |
+| default.htm | home.html    | home.htm    | index.js     |
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -263,10 +263,10 @@ Example Index Files:
 <ins><strong>Create an email account</strong></ins>:
 
 - Click _Email Accounts_ > click _Create_ if you already have an email or the fields will be available to enter the prefix
-- Select the domain name if you have more than one 
+- Select the domain name if you have more than one
 - Enter a Password
-- Choose size though default is probably fine 
-- Click _Create Account_ 
+- Choose size though default is probably fine
+- Click _Create Account_
 - Click _Check Email_ though your inbox will be empty except for maybe a system generated Welcome email with configuration settings
 - The only option for me is `horde`, but you may also see `roundcube` and `SquirrelMail`
 - Try to compose a test email to your personal account
@@ -296,22 +296,24 @@ Example Index Files:
 - Click Create - then go back to the main cPanel window
 - Find WordPress and click on it then click Install
 - Under domains choose your sub-domain otherwise you will overwrite your root domain WHICH YOU DO NOT WANT TO DO!
-- Enter your Admin User Name and PAssword - 
+- Enter your Admin User Name and PAssword -
 - OPTIONAL: Under Advanced Options, you can change the name of your database
-- Click Install on that screen 
+- Click Install on that screen
 - when it is finished you will get a link to the main domain which is your sub-domain, and you also get a link to your WordPRess Admin area
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Miscellaneous
 
-BACKUPS: 
+BACKUPS:
 
-- Choose _Backup Wizard_ - click _Backup_ to get a copy of your site or _Restore_ for that option
+- Backup and Backup Wizard buttons do the same thing, but Backup Wizard does it quicker
+- Choose _Backup Wizard_ - You see 2 options, Backup and Restore - click _Backup_ to get a copy of your site or _Restore_ for that option - then click Full Backup > choose Home directory then click Generate Backup > click on the link on the next screen to download your backup
+- NOTE: You can't do a full Backup-Restore from cPanel - your Host company needs to do that - or what you need to do is make partial backups (What are they and how do you do it?) - then click REstore and upload the partial backups 1 by 1
 
-DATABASES: 
+DATABASES:
 
-- To create a MySQL database click _MySQL Database Wizard_ 
+- To create a MySQL database click _MySQL Database Wizard_
 - Your database will be prefixed with your username followed by an undeerscore, e.g. _username_
 - In the input field enter the suffix like _secondary_, _test_, etc.
 - Click Next Step > then for username you get the same prefix so enter _jim_ or whatever you want
@@ -321,11 +323,19 @@ DATABASES:
 
 MANAGE YOUR DATABASES:
 
-- Select `phpMyAdmin` - click on the database you created above 
+- Select `phpMyAdmin` - click on the database you created above
 - It won'y have any tables in it so you can create one such as _users_
 - Fill out the fields and other settings
 - Click Insert to add a record to your table and then click Go to add it
 - You can create as many tables as you need for that database but make sure they are focused on users or whatever you chose
 - Create a new table for subjects such as _products_
+
+**Manual Files Backup**
+
+- Go into File Manager > _public_html_, CTRL+A to select everything, click _Compress_ from the top menu, choose Zip archive type, click _Compress Files_, then _Close_ - you should then see a file named _cgi-bin.zip_ - right-click > Download
+
+**Backup Database Files**
+
+- Go into phpmyadmin > click on your database > click on the Export button in the top bar > select Quick, SQL format then click Go and that will download the database
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
