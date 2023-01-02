@@ -80,6 +80,13 @@ Notes on DNS records are in this. Also check out the cPanel markdown file.
 - Some `TXT` records are used for verification and used only once
 - An `SPF` rec depends on the email provider you have and it helps being recognized by other email providers
 
+### SPF Record
+
+- Stands for Sender Policy Framework and is an email validation technique by detecting email spoofing and preventing spam
+- Using an SPF record can also prevent your emails from being flagged as spam
+- an SPF record starts with a _v_, _v1_ is the most recognized - e.g.: `<v="spfl a include:_spf.google.com -all">`
+  - where `v="spfl` is for version 1, `a` is for authorization, `include` is used to authorize emails, `-all` denies all emails not listed in the record
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## NS Records
