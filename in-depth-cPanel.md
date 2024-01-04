@@ -90,7 +90,7 @@ Awstats:
 
 - you can seee the days and the visits per day - when to publish, when to send auto emails
 - you can see the duration - how long are people statying on your site
-- IDIOT DOESN'T SHOW ANYTHING
+- HE DOESN'T SHOW ANYTHING?!?
 - look for people linking to my pages
 - you can also see the search phrases
 
